@@ -11,6 +11,8 @@
 * [pipp](https://github.com/bschmalhofer/pipp) - an implementation of the language PHP that runs on Parrot
 * [Quercus](https://www.caucho.com/resin-3.1/doc/quercus.xtp) - Java implementation of the PHP language
 
+Old stuff: https://stackoverflow.com/a/1408499/925196
+
 ### Trans-compilers from other languages to PHP
 
 * [Blueberry](https://github.com/gosukiwi/Blueberry) - a script language with clean syntax, inspired from Ruby, CoffeeScript, and Python which compiles to PHP
