@@ -1,4 +1,4 @@
-# alternative-interpreters
+# Alternative Interpreters
 
 ## PHP
 
@@ -7,7 +7,7 @@
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
-* [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP, see its [distinctive features](https://ph7.symisc.net/features.html)
+* ❤️ [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
 * [pipp](https://github.com/bschmalhofer/pipp) - an implementation of the language PHP that runs on Parrot
 * [Quercus](https://www.caucho.com/resin-3.1/doc/quercus.xtp) - Java implementation of the PHP language
 
@@ -27,3 +27,7 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 ### Preprocessors
 
 * [Pre](https://preprocess.io/) - compiles new syntax to work in new and old versions of PHP
+
+### Other
+
+* [AerScript](https://github.com/sc0ttj/AerScript) - general-purpose, object-oriented scripting programming language based on PH7 (alternative PHP interpreter)
