@@ -13,12 +13,13 @@
 * [pyhp](https://github.com/juokaz/pyhp) - incomplete implementation of the PHP language using the RPython technology (for complete implementation see: HippyVM)
 * [pyhp.js](https://github.com/juokaz/pyhp.js) - PyHP interpreter translated into JavaScript using emscripten, resulting javascript file is asm.js which can be loaded in any browser or ran with Node.js
 * [Quercus](https://www.caucho.com/resin-3.1/doc/quercus.xtp) - Java implementation of the PHP language
-* [Recki Compiler Toolkit for PHP](https://github.com/google/recki-ct) - a compiler for PHP written in PHP (outputs code that is faster than native PHP)
+* [Recki Compiler Toolkit for PHP](https://github.com/google/recki-ct) - quote from [1]: "a compiler written entirely in PHP and only targets a subset of the PHP specification. It intentionally limits itself to a more static subset so that it is faster. This means that it does not support things like references, variable-variables and global variables. Recki-CT compiles PHP down to machine code but unlike HHVM and HippyVM, which use Just in Time compilation to compile PHP, it uses Ahead of Time compilation which caches an intermediary representation that can be compiled at run-time. Therefore, more aggressive optimisations can be applied and more efficient code can be generated. Based on trivial benchmarks, Recki-CT proves to be extremely fast."
 
 Old stuff: https://stackoverflow.com/a/1408499/925196
 
 ### Transpilers ###
 
+(empty)
 
 ### Trans-compilers from other languages to PHP
 
@@ -39,3 +40,18 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 ### Other
 
 * [AerScript](https://github.com/sc0ttj/AerScript) - general-purpose, object-oriented scripting programming language based on PH7 (alternative PHP interpreter)
+
+### Languages derived from PHP
+
+* [Hack](https://hacklang.org/) - PHP-like new language with gradual typing, generics and new container types (vector, map, set, pair) executed on HipHop Virtual Machine (HHVM)
+
+### Research papers
+
+#### Timeline
+
+* 2015
+  * [1] - "We take a closer look at the four most popular ones, Zend, HHVM, HippyVM and Hack."
+
+#### References
+
+[1] KHAN, Sher Ali; MAFFEIS, Sergio. A Comparative Study of PHP Dialects. 2015.
