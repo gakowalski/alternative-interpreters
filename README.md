@@ -43,15 +43,12 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 
 ### Languages derived from PHP
 
-* [Hack](https://hacklang.org/) - PHP-like new language with gradual typing, generics and new container types (vector, map, set, pair) executed on HipHop Virtual Machine (HHVM)
+* [Hack](https://hacklang.org/) - PHP-like new language with gradual typing, generics and new container types (vector, map, set, pair) executed on HipHop Virtual Machine (HHVM) [2]
 
 ### Research papers
-
-#### Timeline
-
-* 2015
-  * [1] - "We take a closer look at the four most popular ones, Zend, HHVM, HippyVM and Hack."
 
 #### References
 
 [1] KHAN, Sher Ali; MAFFEIS, Sergio. A Comparative Study of PHP Dialects. 2015.
+[2] ADAMS, Keith, et al. The hiphop virtual machine. In: Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications. 2014. p. 777-790.
+[3] OTTONI, Guilherme. HHVM JIT: A Profile-guided, Region-based Compiler for PHP and Hack. In: Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation. 2018. p. 151-165.
