@@ -5,6 +5,7 @@
 ### Alternative interpreters and compilers
 
 * [php-wasm](https://github.com/seanmorris/php-wasm) - Run PHP right in the browser. Live demo included.
+* [graalphp](https://github.com/abertschi/graalphp) - an experimental just-in-time (JIT) compiler and runtime for PHP 7.4+ built on [GraalVM](https://www.graalvm.org/22.2/docs/introduction/) (see some [benchmarks](https://github.com/abertschi/graalphp/blob/master/results.md))
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
