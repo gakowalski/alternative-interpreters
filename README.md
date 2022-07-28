@@ -8,6 +8,7 @@
 * [graalphp](https://github.com/abertschi/graalphp) - an experimental just-in-time (JIT) compiler and runtime for PHP 7.4+ built on [GraalVM](https://www.graalvm.org/22.2/docs/introduction/) (see some [benchmarks](https://github.com/abertschi/graalphp/blob/master/results.md))
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
+* [PeachPie](https://www.peachpie.io/) - a modern PHP compiler based on the [Microsoft Roslyn](https://github.com/dotnet/roslyn) compiler platform and drawing from [Phalanger](https://github.com/DEVSENSE/Phalanger) project (PHP 5.4 compiler for .NET/Mono); it allows PHP to be executed within the .NET framework, thereby opening the door for PHP developers into the world of .NET and vice versa.
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
 * ❤️ [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - PHP interpreter written in PHP, low performance - for much faster one see: Recki-CT
