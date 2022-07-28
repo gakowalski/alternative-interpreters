@@ -4,6 +4,7 @@
 
 ### Alternative interpreters and compilers
 
+* [php-wasm](https://github.com/seanmorris/php-wasm) - Run PHP right in the browser. Live demo included.
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
