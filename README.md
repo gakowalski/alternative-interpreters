@@ -13,6 +13,7 @@
 * ❤️ [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - PHP interpreter written in PHP, low performance - for much faster one see: Recki-CT
 * [pipp](https://github.com/bschmalhofer/pipp) - an implementation of the language PHP that runs on Parrot
+* [PolarPHP](https://github.com/polarphp/polarphp) - PHP 7 compiler with support for asynchronous programming, multi-threading and coroutines
 * [pyhp](https://github.com/juokaz/pyhp) - incomplete implementation of the PHP language using the RPython technology (for complete implementation see: HippyVM)
 * [pyhp.js](https://github.com/juokaz/pyhp.js) - PyHP interpreter translated into JavaScript using emscripten, resulting javascript file is asm.js which can be loaded in any browser or ran with Node.js
 * [Quercus](https://www.caucho.com/resin-3.1/doc/quercus.xtp) - Java implementation of the PHP language
