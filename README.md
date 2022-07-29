@@ -42,6 +42,11 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 
 * [Pre](https://preprocess.io/) - compiles new syntax to work in new and old versions of PHP
 
+### Alternative PHP Virtual Machines
+
+* [HHVM](https://hhvm.com/) - an open-source virtual machine designed for executing programs written in [Hack](https://hacklang.org/) (originally superset of PHP)
+* [Tagua VM](https://github.com/tagua-vm/tagua-vm) - an experimental PHP Virtual Machine that guarantees safety and quality by removing large classes of vulnerabilities thanks to the Rust language and the LLVM Compiler Infrastructure
+
 ### Other
 
 * [AerScript](https://github.com/sc0ttj/AerScript) - general-purpose, object-oriented scripting programming language based on PH7 (alternative PHP interpreter)
