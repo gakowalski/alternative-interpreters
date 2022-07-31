@@ -25,6 +25,7 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 
 ### Trans-compilers
 
+* [BinaryPHP](https://github.com/daeken/BinaryPHP) - PHP To C++ converter
 * [Blueberry](https://github.com/gosukiwi/Blueberry) - a script language with clean syntax, inspired from Ruby, CoffeeScript, and Python which compiles to PHP
 * [Haxe](https://haxe.org/) - high-level strictly-typed programming language with a fast optimizing cross-compiler which also compiles to PHP
 * [Phabel](https://github.com/phabelio/phabel) - allows native usage of PHP 8+ features and especially syntax in projects and libraries, while allowing maintainers to publish a version targeting lower versions of php
