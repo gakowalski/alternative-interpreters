@@ -34,6 +34,7 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 * [Salty](https://github.com/egonschiele/salty) - a language that compiles to PHP, JavaScript, and JSX; Haskell-inspired
 * [Snowscript](https://github.com/runekaagaard/snowscript) - a language that compiles to PHP; its syntax is inspired by Python, Lua, Coffescript, Go and Scala and strives to be DRY, clean and easy to read as well as write
 * [THT](https://tht.dev/) - a clean re-design of PHP, making it more secure and easier to use
+* [tré](https://github.com/SvenMichaelKlose/tre) - transpiles Lisp to JavaScript and PHP7+; runs on top of Steel Bank Common Lisp (sbcl).
 * [XP Compiler](https://github.com/xp-framework/compiler) - translates between Hack language, PHP 8.2, 8.1, 8.0, PHP 7.4, PHP 7.3, PHP 7.2, PHP 7.1 and PHP 7.0.
 
 ### Preprocessors
