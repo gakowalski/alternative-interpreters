@@ -19,6 +19,7 @@
 * [pyhp.js](https://github.com/juokaz/pyhp.js) - PyHP interpreter translated into JavaScript using emscripten, resulting javascript file is asm.js which can be loaded in any browser or ran with Node.js
 * [Quercus](https://www.caucho.com/resin-3.1/doc/quercus.xtp) - Java implementation of the PHP language
 * [Recki Compiler Toolkit for PHP](https://github.com/google/recki-ct) - quote from [1]: "a compiler written entirely in PHP and only targets a subset of the PHP specification. It intentionally limits itself to a more static subset so that it is faster. This means that it does not support things like references, variable-variables and global variables. Recki-CT compiles PHP down to machine code but unlike HHVM and HippyVM, which use Just in Time compilation to compile PHP, it uses Ahead of Time compilation which caches an intermediary representation that can be compiled at run-time. Therefore, more aggressive optimisations can be applied and more efficient code can be generated. Based on trivial benchmarks, Recki-CT proves to be extremely fast."
+* [Uniter](https://phptojs.com/) - PHP client-side in the browser or in Node.js.
 
 Old stuff: https://stackoverflow.com/a/1408499/925196
 
