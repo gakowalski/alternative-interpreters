@@ -7,6 +7,7 @@
 * [php-wasm](https://github.com/seanmorris/php-wasm) - Run PHP right in the browser. Live demo included.
 * [ePHP](https://github.com/bragful/ephp) - PHP Interpreter in pure 100% Erlang (requires Erlang/OTP 19+), see [compatibility table](https://github.com/bragful/ephp/blob/master/doc/COMPATIBILITY.md)
 * [graalphp](https://github.com/abertschi/graalphp) - an experimental just-in-time (JIT) compiler and runtime for PHP 7.4+ built on [GraalVM](https://www.graalvm.org/22.2/docs/introduction/) (see some [benchmarks](https://github.com/abertschi/graalphp/blob/master/results.md))
+* [Goro](https://github.com/MagicalTux/goro) - incomplete implementation of PHP 7.2 written in pure [Go](https://go.dev/) with support for [goroutines](https://golangbot.com/goroutines/), better caching of compiled code by allowing sharing of compiled or live objects (classes, objects, etc) between running PHP scripts
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [JPHP](https://github.com/jphp-group/jphp) - compiles PHP 7.1+ sources to JVM bytecode which can be executed on Java VM; adds possibility to use Java libraries in PHP, Java-like multithreading, sockets, creating GUI Android and Desktop apps (JavaFX or SWT), hot reloading for classes and functions; offers dedicated IDE called [DevelNext IDE](https://github.com/jphp-group/develnext-ide)
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
@@ -31,9 +32,10 @@ Some old stuff: https://stackoverflow.com/a/1408499/925196
 
 ### Trans-compilers
 
-* [BinaryPHP](https://github.com/daeken/BinaryPHP) - PHP To C++ converter
 * [Blueberry](https://github.com/gosukiwi/Blueberry) - a script language with clean syntax, inspired from Ruby, CoffeeScript, and Python which compiles to PHP
+* [Fructose](https://github.com/haileys/Fructose) - a Ruby-like language that compiles to PHP
 * [Haxe](https://haxe.org/) - high-level strictly-typed programming language with a fast optimizing cross-compiler which also compiles to PHP
+* [mammouth](https://github.com/btwael/mammouth) - a small language that compiles into PHP, inspired by CoffeeScript (eg. "Everything is an expression"); compiler itself is written in Dart
 * [Phabel](https://github.com/phabelio/phabel) - allows native usage of PHP 8+ features and especially syntax in projects and libraries, while allowing maintainers to publish a version targeting lower versions of php
 * [Pharen](https://github.com/scriptor/pharen) - compiles a Lisp-inspired language to PHP
 * [Phel](https://phel-lang.org/) - dialect of Lisp that compiles to PHP
@@ -59,7 +61,7 @@ Some old stuff: https://stackoverflow.com/a/1408499/925196
 
 ### Languages derived from PHP
 
-* [Hack](https://hacklang.org/) - PHP-like new language with gradual typing, generics and new container types (vector, map, set, pair) executed on HipHop Virtual Machine (HHVM) [2]
+* [Hack](https://hacklang.org/) - PHP-like new language with gradual typing, generics and new container types (vector, map, set, pair) executed on HipHop Virtual Machine (HHVM) [2][6]
 
 ### Research papers
 
@@ -69,3 +71,5 @@ Some old stuff: https://stackoverflow.com/a/1408499/925196
 * [2] ADAMS, Keith, et al. The hiphop virtual machine. In: Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications. 2014. p. 777-790.
 * [3] OTTONI, Guilherme. HHVM JIT: A Profile-guided, Region-based Compiler for PHP and Hack. In: Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation. 2018. p. 151-165.
 * [4] TATSUBORI, Michiaki, et al. Evaluation of a just-in-time compiler retrofitted for PHP. ACM Sigplan Notices, 2010, 45.7: 121-132.
+* [5] BENDA, Jan; MATOUSEK, Tomas; PROSEK, Ladislav. Phalanger: Compiling and running PHP applications on the Microsoft .NET platform. .NET Technologies 2006, 2006.
+* [6] ZHAO, Haiping, et al. The HipHop compiler for PHP. ACM SIGPLAN Notices, 2012, 47.10: 575-586.
