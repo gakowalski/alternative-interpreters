@@ -22,7 +22,12 @@
 * [Recki Compiler Toolkit for PHP](https://github.com/google/recki-ct) - quote from [1]: "a compiler written entirely in PHP and only targets a subset of the PHP specification. It intentionally limits itself to a more static subset so that it is faster. This means that it does not support things like references, variable-variables and global variables. Recki-CT compiles PHP down to machine code but unlike HHVM and HippyVM, which use Just in Time compilation to compile PHP, it uses Ahead of Time compilation which caches an intermediary representation that can be compiled at run-time. Therefore, more aggressive optimisations can be applied and more efficient code can be generated. Based on trivial benchmarks, Recki-CT proves to be extremely fast."
 * [Uniter](https://phptojs.com/) - PHP client-side in the browser or in Node.js.
 
-Old stuff: https://stackoverflow.com/a/1408499/925196
+Referenced in academic papers but not located online:
+
+* P8 - a Java implementation of PHP 5 with Java bytecode generation,  running on IBM J9 VM 1.5.0, referenced in [4]
+* P9 - a JIT-compiler-based PHP engine, based on IBM J9 VM 1.5.0, referenced in [4]
+
+Some old stuff: https://stackoverflow.com/a/1408499/925196
 
 ### Trans-compilers
 
@@ -63,3 +68,4 @@ Old stuff: https://stackoverflow.com/a/1408499/925196
 * [1] KHAN, Sher Ali; MAFFEIS, Sergio. A Comparative Study of PHP Dialects. 2015.
 * [2] ADAMS, Keith, et al. The hiphop virtual machine. In: Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages & Applications. 2014. p. 777-790.
 * [3] OTTONI, Guilherme. HHVM JIT: A Profile-guided, Region-based Compiler for PHP and Hack. In: Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation. 2018. p. 151-165.
+* [4] TATSUBORI, Michiaki, et al. Evaluation of a just-in-time compiler retrofitted for PHP. ACM Sigplan Notices, 2010, 45.7: 121-132.
