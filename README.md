@@ -14,13 +14,14 @@
 * [PeachPie](https://www.peachpie.io/) - a modern PHP compiler based on the [Microsoft Roslyn](https://github.com/dotnet/roslyn) compiler platform and drawing from [Phalanger](https://github.com/DEVSENSE/Phalanger) project (PHP 5.4 compiler for .NET/Mono); it allows PHP to be executed within the .NET framework, thereby opening the door for PHP developers into the world of .NET and vice versa.
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
 * [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
-* [PHPPHP](https://github.com/ircmaxell/PHPPHP) - PHP interpreter written in PHP, low performance - for much faster one see: Recki-CT
 * [pipp](https://github.com/RemiWoler/pipp) - an implementation of the language PHP that runs on [Parrot Virtual Machine](https://github.com/parrot/parrot), predeccessor of [MoarVM](https://github.com/MoarVM/MoarVM)
 * [PolarPHP](https://github.com/polarphp/polarphp) - PHP 7 compiler with support for asynchronous programming, multi-threading and coroutines
 * [pyhp](https://github.com/juokaz/pyhp) - incomplete implementation of the PHP language using the RPython technology (for complete implementation see: HippyVM)
 * [pyhp.js](https://github.com/juokaz/pyhp.js) - PyHP interpreter translated into JavaScript using emscripten, resulting javascript file is asm.js which can be loaded in any browser or ran with Node.js
 * [Quercus](https://www.caucho.com/resin-3.1/doc/quercus.xtp) - Java implementation of the PHP language
+* [PHPPHP](https://github.com/ircmaxell/PHPPHP) - PHP interpreter written in PHP, low performance, predecessor of much faster Recki Compiler Toolkit for PHP
 * [Recki Compiler Toolkit for PHP](https://github.com/google/recki-ct) - quote from [1]: "a compiler written entirely in PHP and only targets a subset of the PHP specification. It intentionally limits itself to a more static subset so that it is faster. This means that it does not support things like references, variable-variables and global variables. Recki-CT compiles PHP down to machine code but unlike HHVM and HippyVM, which use Just in Time compilation to compile PHP, it uses Ahead of Time compilation which caches an intermediary representation that can be compiled at run-time. Therefore, more aggressive optimisations can be applied and more efficient code can be generated. Based on trivial benchmarks, Recki-CT proves to be extremely fast."
+* [php-compiler](https://github.com/ircmaxell/php-compiler) - PHP compiler, succesor of PHPPHP and Recki Compiler Toolkit for PHP
 * [Uniter](https://phptojs.com/) - PHP client-side in the browser or in Node.js.
 
 Referenced in academic papers but not located online:
@@ -42,9 +43,14 @@ Some old stuff: https://stackoverflow.com/a/1408499/925196
 * [Pratphall](http://cretz.github.io/pratphall/) - an optionally-typed language that compiles to readable PHP
 * [Salty](https://github.com/egonschiele/salty) - a language that compiles to PHP, JavaScript, and JSX; Haskell-inspired
 * [Snowscript](https://github.com/runekaagaard/snowscript) - a language that compiles to PHP; its syntax is inspired by Python, Lua, Coffescript, Go and Scala and strives to be DRY, clean and easy to read as well as write
-* [THT](https://tht.dev/) - a clean re-design of PHP, making it more secure and easier to use
+* [THT](https://tht.dev/) - a clean re-design of PHP, making it more secure and easier to use; see [how THT compares to PHP](https://tht.dev/about/how-tht-compares-to-php)
 * [tré](https://github.com/SvenMichaelKlose/tre) - transpiles Lisp to JavaScript and PHP7+; runs on top of Steel Bank Common Lisp (sbcl).
 * [XP Compiler](https://github.com/xp-framework/compiler) - translates between Hack language, PHP 8.2, 8.1, 8.0, PHP 7.4, PHP 7.3, PHP 7.2, PHP 7.1 and PHP 7.0.
+
+Also transcompilers not for full programming languages:
+
+* [Swagger Editor](https://editor.swagger.io/) - can generate PHP client code from OpenAPI JSON description
+* [Twig](https://twig.symfony.com/) - a templating engine and language that compiles to PHP;
 
 ### Preprocessors
 
