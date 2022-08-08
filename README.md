@@ -5,6 +5,7 @@
 ### Alternative interpreters and compilers
 
 * [php-wasm](https://github.com/seanmorris/php-wasm) - Run PHP right in the browser. Live demo included.
+* [ePHP](https://github.com/bragful/ephp) - PHP Interpreter in pure 100% Erlang (requires Erlang/OTP 19+), see [compatibility table](https://github.com/bragful/ephp/blob/master/doc/COMPATIBILITY.md)
 * [graalphp](https://github.com/abertschi/graalphp) - an experimental just-in-time (JIT) compiler and runtime for PHP 7.4+ built on [GraalVM](https://www.graalvm.org/22.2/docs/introduction/) (see some [benchmarks](https://github.com/abertschi/graalphp/blob/master/results.md))
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [JPHP](https://github.com/jphp-group/jphp) - compiles PHP 7.1+ sources to JVM bytecode which can be executed on Java VM; adds possibility to use Java libraries in PHP, Java-like multithreading, sockets, creating GUI Android and Desktop apps (JavaFX or SWT), hot reloading for classes and functions; offers dedicated IDE called [DevelNext IDE](https://github.com/jphp-group/develnext-ide)
@@ -13,7 +14,7 @@
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
 * [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - PHP interpreter written in PHP, low performance - for much faster one see: Recki-CT
-* [pipp](https://github.com/bschmalhofer/pipp) - an implementation of the language PHP that runs on Parrot
+* [pipp](https://github.com/RemiWoler/pipp) - an implementation of the language PHP that runs on [Parrot Virtual Machine](https://github.com/parrot/parrot), predeccessor of [MoarVM](https://github.com/MoarVM/MoarVM)
 * [PolarPHP](https://github.com/polarphp/polarphp) - PHP 7 compiler with support for asynchronous programming, multi-threading and coroutines
 * [pyhp](https://github.com/juokaz/pyhp) - incomplete implementation of the PHP language using the RPython technology (for complete implementation see: HippyVM)
 * [pyhp.js](https://github.com/juokaz/pyhp.js) - PyHP interpreter translated into JavaScript using emscripten, resulting javascript file is asm.js which can be loaded in any browser or ran with Node.js
