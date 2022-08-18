@@ -54,7 +54,7 @@ Also transcompilers not for full programming languages:
 
 ### Preprocessors
 
-* [Pre](https://github.com/preprocess) - compiles new syntax to work in new and old versions of PHP; original website of this project is down, but it's code is avalable in [this GitHub repo](https://github.com/preprocess/preprocess.io). Still, its might be better to check all the different repos available for the user ["Pre."](https://github.com/preprocess) as they seem to be different parts of the modular Pre project
+* [Pre](https://github.com/preprocess) - compiles new syntax to work in new and old versions of PHP; original website of this project is down, but it's code is avalable in [this GitHub repo](https://github.com/preprocess/preprocess.io). Still, its might be better to check all the different repos available for the user ["Pre."](https://github.com/preprocess) as they seem to be different preprocessors built on top of some shared library or framework (see [this list of packages dependent on pre/plugin](https://packagist.org/packages/pre/plugin/dependents?order_by=downloads))
 
 ### Alternative PHP Virtual Machines
 
