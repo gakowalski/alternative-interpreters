@@ -9,9 +9,6 @@ Reasons:
 * running code in sandbox
 * controlling execution time
 
-Some benchmarks:
-
-
 name | description | last commit
 --- | --- | ---
 [engine262](https://github.com/engine262/engine262) | An implementation of ECMA-262 in JavaScript | 2022
