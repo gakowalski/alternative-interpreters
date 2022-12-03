@@ -2,7 +2,7 @@
 
 ## JavaScript
 
-See [javascript.md] - work in progress.
+See [javascript.md](javascript.md) - work in progress.
 
 ## PHP
 
