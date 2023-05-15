@@ -18,6 +18,7 @@ See [javascript.md](javascript.md) - work in progress.
 * [PeachPie](https://www.peachpie.io/) - a modern PHP compiler based on the [Microsoft Roslyn](https://github.com/dotnet/roslyn) compiler platform and drawing from [Phalanger](https://github.com/DEVSENSE/Phalanger) project (PHP 5.4 compiler for .NET/Mono); it allows PHP to be executed within the .NET framework, thereby opening the door for PHP developers into the world of .NET and vice versa.
 * [php-interpreter](https://github.com/tharzen/php-interpreter) - a PHP interpreter written in TypeScript, supports PHP 7
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
+* [PHP Emulator](https://github.com/abiusx/php-emul) - emulates PHP 5.4; made for advanced debugging
 * [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
 * [pipp](https://github.com/RemiWoler/pipp) - an implementation of the language PHP that runs on [Parrot Virtual Machine](https://github.com/parrot/parrot), predeccessor of [MoarVM](https://github.com/MoarVM/MoarVM)
 * [PolarPHP](https://github.com/polarphp/polarphp) - PHP 7 compiler with support for asynchronous programming, multi-threading and coroutines
