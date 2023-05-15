@@ -16,6 +16,7 @@ See [javascript.md](javascript.md) - work in progress.
 * [JPHP](https://github.com/jphp-group/jphp) - compiles PHP 7.1+ sources to JVM bytecode which can be executed on Java VM; adds possibility to use Java libraries in PHP, Java-like multithreading, sockets, creating GUI Android and Desktop apps (JavaFX or SWT), hot reloading for classes and functions; offers dedicated IDE called [DevelNext IDE](https://github.com/jphp-group/develnext-ide)
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
 * [PeachPie](https://www.peachpie.io/) - a modern PHP compiler based on the [Microsoft Roslyn](https://github.com/dotnet/roslyn) compiler platform and drawing from [Phalanger](https://github.com/DEVSENSE/Phalanger) project (PHP 5.4 compiler for .NET/Mono); it allows PHP to be executed within the .NET framework, thereby opening the door for PHP developers into the world of .NET and vice versa.
+* [php-interpreter](https://github.com/tharzen/php-interpreter) - a PHP interpreter written in TypeScript, supports PHP 7
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
 * [PH7](https://ph7.symisc.net/) - An Embedded Implementation of PHP 5 with a lot of PHP 7+ and C++-like improvements, see its [distinctive features](https://ph7.symisc.net/features.html)
 * [pipp](https://github.com/RemiWoler/pipp) - an implementation of the language PHP that runs on [Parrot Virtual Machine](https://github.com/parrot/parrot), predeccessor of [MoarVM](https://github.com/MoarVM/MoarVM)
@@ -40,6 +41,7 @@ Some old stuff: https://stackoverflow.com/a/1408499/925196
 * [Blueberry](https://github.com/gosukiwi/Blueberry) - a script language with clean syntax, inspired from Ruby, CoffeeScript, and Python which compiles to PHP
 * [Fructose](https://github.com/haileys/Fructose) - a Ruby-like language that compiles to PHP
 * [Haxe](https://haxe.org/) - high-level strictly-typed programming language with a fast optimizing cross-compiler which also compiles to PHP
+* [lua2php](https://gitlab.com/the-language/lua2php) - Lua to PHP transpiler
 * [mammouth](https://github.com/btwael/mammouth) - a small language that compiles into PHP, inspired by CoffeeScript (eg. "Everything is an expression"); compiler itself is written in Dart
 * [Phabel](https://github.com/phabelio/phabel) - allows native usage of PHP 8+ features and especially syntax in projects and libraries, while allowing maintainers to publish a version targeting lower versions of php
 * [Pharen](https://github.com/scriptor/pharen) - compiles a Lisp-inspired language to PHP
