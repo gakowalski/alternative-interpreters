@@ -6,7 +6,7 @@ See [javascript.md](javascript.md) - work in progress.
 
 ## SQL
 
-See [sql.md](sqk.md) - work in progress.
+See [sql.md](sql.md) - work in progress.
 
 ## PHP
 
