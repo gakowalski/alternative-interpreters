@@ -4,6 +4,10 @@
 
 See [javascript.md](javascript.md) - work in progress.
 
+## SQL
+
+See [sql.md](sqk.md) - work in progress.
+
 ## PHP
 
 ### Alternative interpreters and compilers
