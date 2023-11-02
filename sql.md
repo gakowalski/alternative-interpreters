@@ -2,11 +2,18 @@
 
 ## MySQL compatible
 
-* [MySQL](https://www.mysql.com/) - the oroginal;
+* [MySQL](https://www.mysql.com/) - the original;
 * [MariaDB](https://mariadb.org/) - fork of the original made by author of the original;
 * [Percona Server for MySQL](https://www.percona.com/mysql/software) - fork of the original code base;
 * [Go MySQL Server](https://github.com/dolthub/go-mysql-server) - completely new implementation written in Go; not threadsafe, without transaction support;
 * [Dolt](https://github.com/dolthub/dolt) - based on Go MySQL Server; adds version control functionality.
+
+## MySQL compatible proxy
+
+* [ProxySQL](https://github.com/sysown/proxysql) - supports query rewrite
+* MySQLRouter - seems to support max 1024 connections (2048 with connection_sharing enabled)
+* haproxy
+* [MaxScale by MariaDB Corporation](https://github.com/mariadb-corporation/MaxScale) - supports query rewrite via RewriteFilter
 
 # SQL dumpfile generators and interpreters
 
