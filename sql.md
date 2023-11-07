@@ -7,6 +7,8 @@
 * [Percona Server for MySQL](https://www.percona.com/mysql/software) - fork of the original code base;
 * [Go MySQL Server](https://github.com/dolthub/go-mysql-server) - completely new implementation written in Go; not threadsafe, without transaction support;
 * [Dolt](https://github.com/dolthub/dolt) - based on Go MySQL Server; adds version control functionality.
+* [Bedrock::MySQL](https://bedrockdb.com/mysql.html) - networking and distributed transaction layer built atop SQLite with enabled MySQL compatibility layer, written for modern hardware.
+* [TiDB](https://github.com/pingcap/tidb/) - an open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads.
 
 ## MySQL compatible proxy
 
