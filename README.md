@@ -67,6 +67,11 @@ Also transcompilers not for full programming languages:
 
 * [Pre](https://github.com/preprocess) - compiles new syntax to work in new and old versions of PHP; original website of this project is down, but it's code is avalable in [this GitHub repo](https://github.com/preprocess/preprocess.io). Still, its might be better to check all the different repos available for the user ["Pre."](https://github.com/preprocess) as they seem to be different preprocessors built on top of some shared library or framework (see [this list of packages dependent on pre/plugin](https://packagist.org/packages/pre/plugin/dependents?order_by=downloads))
 
+### Process managers
+
+* [PHP-FPM](https://www.php.net/manual/en/install.fpm.php) - a primary PHP FastCGI implementation containing features useful for heavy-loaded sites.
+* [PHP-PM](https://github.com/php-pm/php-pm) - a process manager, supercharger and load balancer for PHP applications that use request-response frameworks like Symfony's HTTPKernel; performance boost up to 15x compared to PHP-FPM, Symfony applications.
+
 ### Alternative PHP Virtual Machines
 
 * [HHVM](https://hhvm.com/) - an open-source virtual machine designed for executing programs written in [Hack](https://hacklang.org/) (originally superset of PHP)
