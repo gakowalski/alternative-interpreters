@@ -19,7 +19,7 @@ See [sql.md](sql.md) - work in progress.
 * [HippyVM](https://github.com/hippyvm/hippyvm) - an implementation of the PHP language using RPython/PyPy technology
 * [JPHP](https://github.com/jphp-group/jphp) - compiles PHP 7.1+ sources to JVM bytecode which can be executed on Java VM; adds possibility to use Java libraries in PHP, Java-like multithreading, sockets, creating GUI Android and Desktop apps (JavaFX or SWT), hot reloading for classes and functions; offers dedicated IDE called [DevelNext IDE](https://github.com/jphp-group/develnext-ide)
 * [KPHP](https://vkcom.github.io/kphp/) - compiles a limited subset of PHP to a native binary running faster than PHP
-* [PeachPie](https://www.peachpie.io/) - a modern PHP compiler based on the [Microsoft Roslyn](https://github.com/dotnet/roslyn) compiler platform and drawing from [Phalanger](https://github.com/DEVSENSE/Phalanger) project (PHP 5.4 compiler for .NET/Mono); it allows PHP to be executed within the .NET framework, thereby opening the door for PHP developers into the world of .NET and vice versa.
+* [PeachPie](https://www.peachpie.io/) - a modern PHP compiler based on the [Microsoft Roslyn](https://github.com/dotnet/roslyn) compiler platform and drawing from [Phalanger](https://github.com/DEVSENSE/Phalanger) project (PHP 5.4 compiler for .NET/Mono); it allows PHP to be executed within the .NET framework, thereby opening the door for PHP developers into the world of .NET and vice versa. [7]
 * [php-interpreter](https://github.com/tharzen/php-interpreter) - a PHP interpreter written in TypeScript, supports PHP 7
 * [php.js](http://phpjs.hertzen.com/) -  reads PHP code and transforms it into JavaScript code and then runs
 * [PHP Emulator](https://github.com/abiusx/php-emul) - emulates PHP 5.4; made for advanced debugging
@@ -95,3 +95,4 @@ Also transcompilers not for full programming languages:
 * [4] TATSUBORI, Michiaki, et al. Evaluation of a just-in-time compiler retrofitted for PHP. ACM Sigplan Notices, 2010, 45.7: 121-132.
 * [5] BENDA, Jan; MATOUSEK, Tomas; PROSEK, Ladislav. Phalanger: Compiling and running PHP applications on the Microsoft .NET platform. .NET Technologies 2006, 2006.
 * [6] ZHAO, Haiping, et al. The HipHop compiler for PHP. ACM SIGPLAN Notices, 2012, 47.10: 575-586.
+* [7] Robert Husák, Jakub Míšek, Filip Zavoral, Jan Kofroň. PeachPie: Mature PHP to CLI compiler, Journal of Computer Languages, Volume 73, 2022, 101152, ISSN 2590-1184, https://doi.org/10.1016/j.cola.2022.101152.
