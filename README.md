@@ -84,6 +84,8 @@ Also transcompilers not for full programming languages:
 ### Languages derived from PHP
 
 * [Hack](https://hacklang.org/) - PHP-like new language with gradual typing, generics and new container types (vector, map, set, pair) executed on HipHop Virtual Machine (HHVM) [2][6]
+* [PXP](https://github.com/pxp-lang/pxp) - superset of the PHP programming language, heavily inspired by the goals of the TypeScript project, aiming to improve and enhance PHP with transpilation; features its own language server to be used in programming editors and IDEs.
+* [Plus-1](https://github.com/nunomaduro/plus-1) - described as "a superset of PHP" and "runtime compiler that adds features to PHP", created by one of the most prominent Laravel community members, unfortunately docmentation seems to be lost (was at https://php-plus.com/ but Internet Archive responds with error when trying to retrieve it).
 
 ### Research papers
 
