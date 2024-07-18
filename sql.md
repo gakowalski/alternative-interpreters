@@ -9,6 +9,13 @@
 * [Dolt](https://github.com/dolthub/dolt) - based on Go MySQL Server; adds version control functionality.
 * [Bedrock::MySQL](https://bedrockdb.com/mysql.html) - networking and distributed transaction layer built atop SQLite with enabled MySQL compatibility layer, written for modern hardware.
 * [TiDB](https://github.com/pingcap/tidb/) - an open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads.
+* [SingleStore](https://www.singlestore.com/)
+* [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
+* [Vitess](https://vitess.io/)
+* [StarRocks](https://www.starrocks.io/)
+
+Abandoned:
+* [Drizzle](https://en.wikipedia.org/wiki/Drizzle_(database_server))
 
 ## MySQL compatible proxy
 
