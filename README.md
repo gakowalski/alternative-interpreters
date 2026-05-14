@@ -12,6 +12,7 @@ See [sql.md](sql.md) - work in progress.
 
 ### Alternative interpreters and compilers
 
+* [phprs](https://github.com/yingkitw/phprs) - a memory-safe PHP interpreter and toolchain written in Rust.
 * [php-wasm](https://github.com/seanmorris/php-wasm) - Run PHP right in the browser. Live demo included.
 * [ePHP](https://github.com/bragful/ephp) - PHP Interpreter in pure 100% Erlang (requires Erlang/OTP 19+), see [compatibility table](https://github.com/bragful/ephp/blob/master/doc/COMPATIBILITY.md)
 * [graalphp](https://github.com/abertschi/graalphp) - an experimental just-in-time (JIT) compiler and runtime for PHP 7.4+ built on [GraalVM](https://www.graalvm.org/22.2/docs/introduction/) (see some [benchmarks](https://github.com/abertschi/graalphp/blob/master/results.md))
