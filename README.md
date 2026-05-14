@@ -71,6 +71,11 @@ Also transcompilers not for full programming languages:
 
 * [PHP-FPM](https://www.php.net/manual/en/install.fpm.php) - a primary PHP FastCGI implementation containing features useful for heavy-loaded sites.
 * [PHP-PM](https://github.com/php-pm/php-pm) - a process manager, supercharger and load balancer for PHP applications that use request-response frameworks like Symfony's HTTPKernel; performance boost up to 15x compared to PHP-FPM, Symfony applications.
+* [FrankenPHP](https://frankenphp.dev/) - application server for PHP built on top of the Caddy web server.
+* [RoadRunner](https://roadrunner.dev/) - high-performance PHP application server, load-balancer, and process manager written in Golang.
+* Swool
+* OpenSwool
+* Laravel Octane
 
 ### Alternative PHP Virtual Machines
 
